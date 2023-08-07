@@ -22,7 +22,7 @@ n = input('Are you downloading this file on SSD:')
 if n=='y' or n=='Y':
   write_chunk_size = 26214400
 elif n=='n' or n=='N':
-  write_chunk_size = 102400
+  write_chunk_size = 1024000
 else:
   p = input('invalid input, Program terminating. Press any key to exit.')
   exit()
